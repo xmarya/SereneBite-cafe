@@ -1,0 +1,311 @@
+.goal {
+  margin-top: var(--section-margin-top);
+  height: 50vh;
+  grid-column: full-start / full-end;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--warm-brown-dark);
+  position: relative;
+
+  @media only screen and (max-width: 45em) {
+    max-width: 71.6rem;
+  }
+
+  @media only screen and (max-width: 43em) {
+    max-width: 68.6rem;
+  }
+
+  @media only screen and (max-width: 40.9em) {
+    max-width: 65.3rem;
+  }
+
+  @media only screen and (max-width: 39em) {
+    max-width: 62.4rem;
+  }
+  @media only screen and (max-width: 37.5em) {
+    max-width: 60rem;
+  }
+  @media only screen and (max-width: 35.7em) {
+    max-width: 57rem;
+  }
+  @media only screen and (max-width: 34em) {
+    max-width: 55rem;
+  }
+
+  @media only screen and (max-width: 32em) {
+    max-width: 51.2rem;
+  }
+  @media only screen and (max-width: 31em) {
+    max-width: 49.2rem;
+  }
+  @media only screen and (max-width: 29.5em) {
+    max-width: 47.2rem;
+  }
+  @media only screen and (max-width: 28.1em) {
+    max-width: 45rem;
+  }
+  @media only screen and (max-width: 27.3em) {
+    max-width: 43rem;
+  }
+  @media only screen and (max-width: 26em) {
+    max-width: 41rem;
+  }
+  @media only screen and (max-width: 24.5em) {
+    max-width: 39rem;
+  }
+  @media only screen and (max-width: 24em) {
+    max-width: 37.5rem;
+  }
+  @media only screen and (max-width: 23.1em) {
+    max-width: 36.4rem;
+  }
+  @media only screen and (max-width: 22em) {
+    max-width: 35.2rem;
+  }
+  @media only screen and (max-width: 21.1em) {
+    max-width: 33.7rem;
+  }
+  @media only screen and (max-width: 19.1em) {
+    max-width: 30.5rem;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 1%;
+    background-color: var(--body-background);
+    bottom: 25rem;
+
+    @media only screen and (max-width: 20.5em) {
+      width: 30%;
+    }
+  }
+
+  &::before {
+    right: 6%;
+
+    @media only screen and (max-width: 45em) {
+      right: 7%;
+    }
+
+    @media only screen and (max-width: 43em) {
+      right: 6%;
+    }
+
+    @media only screen and (max-width: 32em) {
+      right: 5%;
+    }
+    @media only screen and (max-width: 24.5em) {
+      right: 4%;
+    }
+
+    @media only screen and (max-width: 21.1em) {
+      right: 3%;
+    }
+
+    @media only screen and (max-width: 20.5em) {
+      right: 11%;
+    }
+  }
+  &::after {
+    left: 6%;
+
+    @media only screen and (max-width: 45em) {
+      left: 7%;
+    }
+
+    @media only screen and (max-width: 43em) {
+      left: 6%;
+    }
+
+    
+    @media only screen and (max-width: 32em) {
+      left: 5%;
+    }
+
+    @media only screen and (max-width: 24.5em) {
+      left: 4%;
+    }
+    @media only screen and (max-width: 21.1em) {
+      left: 3%;
+    }
+
+    @media only screen and (max-width: 20.5em) {
+      left: 11%;
+    }
+  }
+
+  &__holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*the our-goal never be in the centre of y-axis
+        until I defined the width and height, so there is a space for
+        the child (our-goal) to move in inside 
+        the container (holder) */
+    width: 100%;
+    height: 100%;
+    margin-top: 7rem;
+    @media only screen and (max-width: 24.5em) {
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__our-goal {
+    font-size: 2.8rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--body-background);
+    letter-spacing: -0.1px;
+    font-style: italic;
+
+    @media only screen and (max-width: 70.9em) {
+      font-size: 2.6rem;
+    }
+
+    @media only screen and (max-width: 63.1em) {
+      font-size: 2.2rem;
+      font-weight: 600;
+    }
+
+    @media only screen and (max-width: 47.5em) {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    @media only screen and (max-width: 43em) {
+      font-size: 1.8rem;
+      line-height: 1.6;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      font-size: 1.6rem;
+      line-height: 1.8;
+    }
+
+    @media only screen and (max-width: 34em) {
+      width: 90%;
+    }
+
+    @media only screen and (max-width: 31em) {
+      width: 80%;
+    }
+    @media only screen and (max-width: 23.1em) {
+      font-size: 1.4rem;
+      margin-top: 1rem;
+    }
+
+    @media only screen and (max-width: 19.1em) {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__logo {
+    width: 20%;
+    height: 20%;
+    overflow: visible;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    @media only screen and (max-width: 45.8em) {
+      width: 16%;
+      height: 16%;
+    }
+
+    @media only screen and (max-width: 19.1em) {
+      width: 15%;
+      height: 15%;
+    }
+  }
+}
+
+.logo--top {
+  top: 15%;
+  left: 50%;
+}
+
+.logo--bottom {
+  top: 87%;
+  left: 50%;
+
+  @media only screen and (max-width: 45em) {
+    top: 88%;
+  }
+}
+
+.line-bottom {
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 1%;
+    background-color: var(--body-background);
+    bottom: 3.4rem;
+
+    @media only screen and (max-width: 20.5em) {
+      width: 30%;
+    }
+  }
+  &::before {
+    right: 6%;
+    @media only screen and (max-width: 45em) {
+      right: 7%;
+    }
+
+    @media only screen and (max-width: 43em) {
+      right: 6%;
+    }
+
+    @media only screen and (max-width: 32em) {
+      right: 5%;
+
+    }
+
+    @media only screen and (max-width: 24.5em) {
+      right: 4%;
+    }
+
+    @media only screen and (max-width: 21.1em) {
+      right: 3%;
+    }
+
+    @media only screen and (max-width: 20.5em) {
+      right: 11%;
+    }
+
+  }
+  &::after {
+    left: 6%;
+    @media only screen and (max-width: 45em) {
+      left: 7%;
+    }
+
+    @media only screen and (max-width: 43em) {
+      left: 6%;
+    }
+
+    @media only screen and (max-width: 32em) {
+      left: 5%;
+    }
+
+    @media only screen and (max-width: 24.5em) {
+      left: 4%;
+    }
+
+    @media only screen and (max-width: 21.1em) {
+      left: 3%;
+    }
+
+    @media only screen and (max-width: 20.5em) {
+      left: 11%;
+    }
+  }
+}

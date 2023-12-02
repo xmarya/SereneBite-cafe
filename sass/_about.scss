@@ -1,0 +1,328 @@
+.about {
+  margin-top: calc(var(--about-section-margin-top) + 8rem);
+  width: 100%;
+  min-height: 100vh;
+  grid-column: centre-start / centre-end;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-content: start;
+  row-gap: 8rem;
+
+  @media only screen and (max-width: 60.85em) {
+    margin-top: var(--about-section-margin-top);
+  }
+
+  @media only screen and (max-width: 44.5em) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+    margin-left: -2rem;
+  }
+
+  @media only screen and (max-width: 35.9em) {
+    margin-left: -5rem;
+  }
+}
+
+.about {
+  &__left-side {
+    grid-column: 1 / span 2;
+    position: relative;
+    z-index: 2;
+
+    @media only screen and (max-width: 73.7em) {
+      /*1176 / 16 */
+      margin-top: -5rem;
+    }
+
+    @media only screen and (max-width: 68.8em) {
+      margin-top: -3rem;
+    }
+
+    @media only screen and (max-width: 52.9em) {
+      margin-top: 0;
+    }
+
+    @media only screen and (max-width: 23.2em) {
+      margin-left: -3rem;
+    }
+
+    @media only screen and (max-width: 22.9em) {
+      margin-left: -6rem;
+    }
+
+  }
+
+  &__button {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    cursor: pointer;
+
+    color: var(--warm-brown-dark-opacity);
+    font-family: var(--sub-family);
+    margin-top: 3rem;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 4rem;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 100%;
+      font-size: 2rem;
+      font-weight: 600;
+      border: 0.2rem solid var(--warm-brown-dark-opacity);
+      background: transparent;
+
+      @media only screen and (max-width: 52.9em) {
+        font-size: 1.6rem;
+      }
+    }
+
+    span {
+      font-size: 2.6rem;
+      font-weight: 600;
+      flex: 1 0 90%;
+
+      @media only screen and (max-width: 52.9em) {
+        font-size: 2.2rem;
+      }
+
+      @media only screen and (max-width: 49.2em) {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+.about {
+  &__right-side {
+    grid-column: 3 / -1;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: -5rem;
+
+    @media only screen and (max-width: 68.8em) {
+      margin-top: 0;
+    }
+
+    @media only screen and (max-width: 60.85em) {
+      align-self: center;
+    }
+
+    @media only screen and (max-width: 56.85em) {
+      width: 90%;
+      height: 90%;
+      align-self: flex-end;
+    }
+
+    @media only screen and (max-width: 44.5em) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    @media only screen and (max-width: 44.5em) {
+      align-self: center;
+      width: 80%;
+      margin-left: -3rem;
+    }
+
+    @media only screen and (max-width: 38.4em) {
+      width: 70%;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      margin-left: -10rem;
+    }
+
+    @media only screen and (max-width: 32em) {
+      width: 60%;
+      margin-left: -15rem;
+    }
+
+    @media only screen and (max-width: 28.9em) {
+      margin-left:-17rem;
+    }
+
+    @media only screen and (max-width: 27.5em) {
+      width: 50%;
+      margin-left:-20rem;
+    }
+
+    @media only screen and (max-width: 24.9em) {
+      margin-left:-25rem;
+    }
+
+    @media only screen and (max-width: 23.2em) {
+      margin-left:-27rem;
+    }
+
+    @media only screen and (max-width: 22.9em) {
+      margin-top: -1.5rem;
+      margin-left:-29rem;
+    }
+  }
+}
+
+.content-holder {
+  position: relative;
+  border-bottom-width: 0.2rem;
+  border-left-width: 0.2rem;
+  border-color: var(--warm-brown-dark);
+  border-bottom-left-radius: 4rem;
+  padding-left: 3.4rem;
+  padding-top: 1.9rem;
+  padding-bottom: 1.9rem;
+  margin-top: -0.1rem;
+  margin-left: 2.8rem;
+
+  @media only screen and (max-width: 44.5em) {
+    max-width: 80%;
+  }
+
+  @media only screen and (max-width: 35.9em) {
+    max-width: 70%;
+  }
+
+  @media only screen and (max-width: 32em) {
+    max-width: 60%;
+  }
+
+  @media only screen and (max-width: 27.5em) {
+    max-width: 50%;
+  }
+
+  &__contents {
+    max-width: 100%;
+    color: var(--warm-brown-dark);
+    // font-family: inherit;
+    display: block;
+    font-size: 1.8rem;
+    padding-bottom: 1.6rem;
+
+    @media only screen and (max-width: 66.8em) {
+      font-size: 1.6rem;
+    }
+
+    @media only screen and (max-width: 56.82em) {
+      /* 909 / 16*/
+      font-size: 1.2rem;
+    }
+
+    @media only screen and (max-width: 44.5em) {
+      // max-width: 80%;
+      font-size: 1.4rem;
+    }
+  }
+
+  &__head {
+    position: absolute;
+    background-color: var(--warm-brown-dark);
+    border-radius: 100%;
+    width: 1.4rem;
+    height: 1.4rem;
+    right: -1rem;
+    bottom: -0.7rem;
+  }
+}
+
+.picture-holder {
+  border-radius: 5rem;
+  box-shadow: 0 2rem 2.5rem -0.5rem rgb(0 0 0 / 0.1),
+    0 0.8rem 1rem -0.6rem rgb(0 0 0 / 0.1);
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+
+  @media only screen and (max-width: 27.5em) {
+    border-radius: 3rem;;
+  }
+
+  &__picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+    @media only screen and (max-width: 52.9em) {
+      width: 117%;
+      height: 113%;
+    }
+
+    @media only screen and (max-width: 44.5em) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.button--active {
+  div,
+  span {
+    color: var(--warm-brown-dark);
+  }
+
+  div {
+    border: 0.2rem solid var(--warm-brown-dark);
+  }
+}
+
+.about{
+  
+  &__section-title {
+  display: none;
+  position: absolute;
+  max-width: 100%;
+  top:-24%;
+  left:-7%;
+  transform: translate(-50% -50%);
+  color: var(--warm-brown-dark);
+  font-family: var(--sub-family);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15rem;
+  opacity: 0.2;
+  z-index: -20;
+
+  @media only screen and (max-width: 32em) {
+    display: block;
+  }
+
+  @media only screen and (max-width: 30.1em) {
+    font-size: 14rem;
+    top:-20%;
+    left:-5%;
+  }
+
+  @media only screen and (max-width: 28.9em) {
+    left:-7%;
+  }
+
+  @media only screen and (max-width: 27.5em) {
+    font-size: 13rem;
+    left:-5%;
+  }
+  @media only screen and (max-width: 26.5em) {
+    font-size: 12rem;
+  }
+
+  @media only screen and (max-width: 23.2em) {
+    font-size: 11rem;
+  }
+  @media only screen and (max-width: 22.9em) {
+    font-size: 10.5rem;
+  }
+
+}
+
+}

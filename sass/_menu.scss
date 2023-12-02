@@ -1,0 +1,207 @@
+.menu {
+  margin-top: var(--section-margin-top);
+  grid-column: full-start / full-end;
+  min-height: 100vh;
+  font-style: italic;
+
+  @media only screen and (max-width: 44.4rem) {
+    width: 71rem;
+  }
+
+  @media only screen and (max-width: 41.25rem) {
+    width: 66rem;
+  }
+
+  @media only screen and (max-width: 38.12rem) {
+    width: 61rem;
+  }
+
+  @media only screen and (max-width: 35.13rem) {
+    width: 55rem;
+  }
+
+  @media only screen and (max-width: 30.8rem) {
+    width: 49.2rem;
+  }
+
+  @media only screen and (max-width: 27.5rem) {
+    width: 44rem;
+  }
+
+  @media only screen and (max-width: 24.1rem) {
+    width: 46rem;
+    margin-left: -3.5rem;
+  }
+
+  @media only screen and (max-width: 23rem) {
+    width: 44rem;
+  }
+
+  @media only screen and (max-width: 21.5rem) {
+    width: 42rem;
+  }
+  @media only screen and (max-width: 20.5rem) {
+    width: 40rem;
+  }
+
+  @media only screen and (max-width: 19.13rem) {
+    width: 38rem;
+  }
+
+  &__box {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-bottom: 14rem;
+    @media only screen and (max-width: 52em) {
+      grid-template-columns: 100%;
+    }
+
+    &__photo {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      z-index: 10;
+      position: relative;
+
+      @media only screen and (max-width: 52em) {
+        display: none;
+      }
+
+      img {
+        // box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-right: -10rem;
+      }
+
+      &__haikei {
+        // border-radius: 4rem;
+        position: absolute;
+        display: block;
+        width: 100%;
+        min-height: 100%;
+        top: 0;
+        left: 0;
+        background-color: var(--warm-brown-light);
+        background-image: url("./imgs/Clarence-background.png");
+        background-position: right;
+        background-size: cover;
+        z-index: -1;
+
+        @media only screen and (max-width: 52em) {
+          display: none;
+        }
+      }
+    }
+
+    &__items {
+      border: 0.5rem solid var(--warm-brown-dark);
+      border-radius: 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--warm-brown-dark);
+      margin: 0 6rem;
+
+      @media only screen and (max-width: 52em) {
+        background-image: url("./imgs/Clarence-background.png");
+        background-position: right;
+        background-size: cover;
+        z-index: -1;
+      }
+
+      &__heading {
+        font-size: 5rem;
+        text-transform: uppercase;
+        margin-top: 2.8rem;
+
+        @media only screen and (max-width: 66.4em) {
+          font-size: 4rem;
+        }
+        @media only screen and (max-width: 59em) {
+          font-size: 3.6rem;
+        }
+
+        @media only screen and (max-width: 55.5em) {
+          font-size: 3.2rem;
+        }
+
+        @media only screen and (max-width: 52em) {
+          font-size: 5rem;
+        }
+
+        @media only screen and (max-width: 36rem) {
+          font-size: 3.6rem;
+          font-weight: 500;
+        }
+
+        @media only screen and (max-width: 27.5rem) {
+          font-size: 3rem;
+        }
+
+        @media only screen and (max-width: 20.5rem) {
+          font-size: 2.8rem;
+        }
+
+        @media only screen and (max-width: 19.13rem) {
+          font-size: 2.5rem;
+        }
+      }
+
+      &__list {
+        text-align: center;
+        width: 70%;
+        font-size: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        letter-spacing: 0.1rem;
+        margin: 3rem 0;
+
+        @media only screen and (max-width: 27.5rem) {
+          width: 80%;
+        }
+
+        & li {
+          text-transform: capitalize;
+          display: flex;
+          flex-direction: column;
+          font-weight: 600;
+          letter-spacing: 0.04rem;
+          margin-bottom: 1rem;
+          @media only screen and (max-width: 27.5rem) {
+            font-weight: 800;
+          }
+
+          @media only screen and (max-width: 19.13rem) {
+            font-size: 1.4rem;
+          }
+
+          span {
+            font-style: normal;
+            font-size: 1.4rem;
+            font-weight: 500;
+            letter-spacing: 0.04rem;
+            text-transform: lowercase;
+            margin-top: 0.5rem;
+            margin-left: 1.6rem;
+
+            @media only screen and (max-width: 19.13rem) {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.highlight-item {
+  text-transform: uppercase !important;
+  margin-top: 2.5rem !important;
+}
+

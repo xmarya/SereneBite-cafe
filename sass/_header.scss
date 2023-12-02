@@ -1,0 +1,314 @@
+.hero {
+  min-height: 100vh;
+  margin-top: 4rem;
+  grid-column: centre-start / centre-end;
+
+  position: relative;
+  z-index: 1;
+
+  @media only screen and (max-width: 40.1em) {
+    margin-right: 4rem;
+  }
+
+  &__image {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    &--1 {
+      clip-path: url(#hero-path);
+      background-image: url(./imgs/Hero-1.jpg);
+
+      width: 100%;
+      height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      // z-index: 0;
+
+      @media only screen and (max-width: 73.7em) {
+        /*1176 / 16 */
+        width: 90%;
+      }
+
+      @media only screen and (max-width: 56.85em) {
+        /* 909 / 16*/
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        width: 44%;
+        height: 31%;
+        top: 12%;
+        left: 29%;
+        border-radius: 4rem;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+          0 2px 4px -2px rgb(0 0 0 / 0.1);
+      }
+
+      @media only screen and (max-width: 44.5em) {
+        left: 20%;
+      }
+
+      @media only screen and (max-width: 38.4em) {
+        width: 40%;
+        height: 27%;
+      }
+
+      @media only screen and (max-width: 34.6em) {
+        left: 17%;
+      }
+
+      @media only screen and (max-width: 30.5em) {
+        left: 12%;
+      }
+
+      @media only screen and (max-width: 28.5em) {
+        width: 35%;
+        height: 21%;
+        border-radius: 2rem;
+      }
+      @media only screen and (max-width: 27.5em) {
+        left: 10%;
+      }
+
+      @media only screen and (max-width: 26.5em) {
+        width: 40%;
+        top: 13%;
+        left: 15%;
+      }
+    }
+
+    &--2 {
+      display: none;
+
+      @media only screen and (max-width: 56.85em) {
+        display: block;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        width: 44%;
+        height: 31%;
+        top: 35%;
+        left: 42%;
+        border-radius: 4rem;
+        background-image: url(./imgs/bite-after-element.jpg);
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+          0 2px 4px -2px rgb(0 0 0 / 0.1);
+      }
+
+      @media only screen and (max-width: 38.4em) {
+        width: 40%;
+        height: 27%;
+      }
+
+      @media only screen and (max-width: 34.6em) {
+        left: 30%;
+      }
+      @media only screen and (max-width: 30.5em) {
+        left: 23%;
+      }
+
+      @media only screen and (max-width: 28.5em) {
+        width: 35%;
+        height: 21%;
+        border-radius: 2rem;
+      }
+
+      @media only screen and (max-width: 26.5em) {
+        width: 40%;
+        top: 38%;
+        left: 2%;
+      }
+
+      @media only screen and (max-width: 22.9em) {
+        left: -5%;
+      }
+    }
+
+    &--3 {
+      display: none;
+
+      @media only screen and (max-width: 56.85em) {
+        display: block;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        width: 44%;
+        height: 31%;
+        top: 74%;
+        left: 18%;
+        border-radius: 4rem;
+        background-image: url(./imgs/cafe-after-element.jpg);
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+          0 2px 4px -2px rgb(0 0 0 / 0.1);
+      }
+
+      @media only screen and (max-width: 42.2em) {
+        left: 3%;
+      }
+
+      @media only screen and (max-width: 38.4em) {
+        width: 40%;
+        height: 27%;
+      }
+
+      @media only screen and (max-width: 33.4em) {
+        left: -3%;
+      }
+
+      @media only screen and (max-width: 30.5em) {
+        left: -5%;
+      }
+
+      @media only screen and (max-width: 28.5em) {
+        width: 35%;
+        height: 21%;
+        border-radius: 2rem;
+      }
+
+      @media only screen and (max-width: 26.5em) {
+        width: 40%;
+        top: 76%;
+        left: -5%;
+      }
+    }
+  }
+
+  &__heading {
+    @media only screen and (max-width: 73.7em) {
+      /*1176 / 16 */
+      width: 90%;
+    }
+
+    @media only screen and (max-width: 38.4em) {
+      width: 75%;
+    }
+
+    @media only screen and (max-width: 33.4em) {
+      width: 60%;
+    }
+
+    &--1 {
+      position: absolute;
+      top: -24%;
+      left: 34%;
+
+      @media only screen and (max-width: 78.26em) {
+        /* 1252 / 16 78.26*/
+        left: 32%;
+      }
+
+      @media only screen and (max-width: 73.7em) {
+        /*1176 / 16 */
+        top: -13%;
+        left: 33%;
+      }
+
+      @media only screen and (max-width: 44.5em) {
+        left: 24%;
+      }
+
+      @media only screen and (max-width: 38.4em) {
+        top: -5%;
+        left: 22%;
+      }
+
+      @media only screen and (max-width: 33.4em) {
+        top: -3%;
+        left: 26%;
+      }
+      @media only screen and (max-width: 30.5em) {
+        left: 21%;
+      }
+      @media only screen and (max-width: 28.5em) {
+        left: 18%;
+      }
+
+      @media only screen and (max-width: 27.5em) {
+        left: 15%;
+      }
+
+      @media only screen and (max-width: 26.5em) {
+        width: 70%;
+        top: -15%;
+        left: -10%;
+      }
+    }
+
+    &--2 {
+      position: absolute;
+      top: 27%;
+      left: -23%;
+
+      @media only screen and (max-width: 73.7em) {
+        left: -20%;
+      }
+
+      @media only screen and (max-width: 38.4em) {
+        top: 30%;
+        left: -10%;
+      }
+
+      @media only screen and (max-width: 34.6em) {
+        left: -24%;
+      }
+
+      @media only screen and (max-width: 33.4em) {
+        top: 32%;
+        left: -15%;
+      }
+      @media only screen and (max-width: 30.5em) {
+        left: -20%;
+      }
+
+      @media only screen and (max-width: 26.5em) {
+        width: 75%;
+        top: 22%;
+        left: 1%;
+      }
+
+      @media only screen and (max-width: 22.9em) {
+        left: -9%;
+      }
+    }
+
+    &--3 {
+      position: absolute;
+      top: 53%;
+      left: 40%;
+
+      @media only screen and (max-width: 56.85em) {
+        top: 67%;
+        left: 36%;
+      }
+
+      @media only screen and (max-width: 42.2em) {
+        left: 20%;
+      }
+
+      @media only screen and (max-width: 38.4em) {
+        top: 70%;
+        left: 24%;
+      }
+      @media only screen and (max-width: 33.4em) {
+        top: 74%;
+        left: 23%;
+      }
+
+      @media only screen and (max-width: 30.5em) {
+        left: 18%;
+      }
+
+      @media only screen and (max-width: 28.5em) {
+        left: 14%;
+      }
+
+      @media only screen and (max-width: 26.5em) {
+        width: 75%;
+        top: 59%;
+        left: -3%;
+      }
+
+      @media only screen and (max-width: 22.9em) {
+        left: -9%;
+      }
+    }
+  }
+}

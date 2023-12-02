@@ -1,0 +1,21 @@
+{
+  "name": "serenebite",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "watch": "sass --watch sass/main.scss style.css",
+    "build": ""
+  },
+  "author": "Marya",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "leaflet": "^1.9.4",
+    "sass": "^1.69.3"
+  },
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}

@@ -1,0 +1,202 @@
+.navigation {
+  min-height: 15vh;
+  grid-column: full-start / full-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main-family);
+  font-style: italic;
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+
+  z-index: 999; // because of the header's SVG image was over the nav bar and the user couldn't hover/press the nav items
+
+  position: relative;
+  &__logo {
+    width: 30%;
+    height: 30%;
+    overflow: visible;
+
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    margin-left: 2rem;
+  }
+
+  &__links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 1rem 3.2rem;
+    border-radius: 4rem;
+    background-color: var(--warm-brown-light);
+    position: relative;
+
+    @media only screen and (max-width: 73.7em) {
+      /*1176 / 16 */
+      width: 60%;
+    }
+
+    @media only screen and (max-width: 52.85em) {
+      display: none;
+    }
+
+    &--items a {
+      color: var(--warm-brown-dark);
+      font-weight: 700;
+      letter-spacing: 0.04rem;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: hsl(35, 49%, 40%);
+      }
+    }
+  }
+  &__btn {
+    position: absolute;
+    width: 25%;
+    top: -40%;
+    right: -12%;
+    font-size: 1.6rem;
+    border: 0.5rem solid var(--body-background);
+    padding: 0.8rem 0.16rem;
+
+    @media only screen and (max-width: 60.85em) {
+      right: -14%;
+    }
+  }
+
+  span {
+    color: white;
+  }
+}
+
+.opening-hours {
+  position: relative;
+}
+
+.hours {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 17rem;
+  height: 15rem;
+  background-color: var(--calm-blue-10);
+  background-image: url("./imgs/Clarence-background.png");
+  background-size: cover;
+  border-radius: 1.9rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+
+  visibility: hidden;
+  // transition: all 0.4s ease;
+}
+
+.opening-hours:hover .hours,
+.opening-hours:active .hours {
+  visibility: visible;
+}
+
+.navigation {
+  &__tablet-phone {
+    display: none;
+    font-size: 2rem;
+
+
+    @media only screen and (max-width: 52.85em) {
+      position: fixed;
+      display: block;
+      top: 0;
+      left: 100%;
+      width: 40%;
+      height: 100%;
+      background-color: var(--warm-brown-light);
+      box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+      transition: all 0.5s ease-in;
+    }
+
+    @media only screen and (max-width: 30.5em) {
+      left: 110%;
+      font-size: 1.6rem;
+    }
+    @media only screen and (max-width: 24.9em) {
+      font-size: 1.4rem;
+    }
+
+    &__links {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 4rem;
+      margin-top: 6rem;
+
+      @media only screen and (max-width: 30.5em) {
+        row-gap: 2.6rem;
+      }
+    }
+    
+
+    &__btn {
+      margin-top: 5rem;
+      padding: 1.2rem 4rem;
+
+      @media only screen and (max-width: 30.5em) {
+        margin-top: 10rem;
+        padding: 1.2rem 3rem;
+      }
+
+      @media only screen and (max-width: 24.9em) {
+        padding: 1rem 2rem ;
+      }
+    }
+  }
+}
+
+.open-navi {
+   left: 60%;
+}
+
+.arrow-navi {
+  display: none;
+  position: fixed;
+  top: 5%;
+  left: 94%;
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: var(--warm-brown-dark);
+  transform: rotate(225deg);
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+
+  @media only screen and (max-width: 52.85em) {
+    display: block;
+  }
+
+  @media only screen and (max-width: 30.5em) {
+    left: 90%;
+  }
+}
+
+.rotate-arrow {
+  transform: rotate(44deg);
+  left: 54%;
+
+  @media only screen and (max-width: 30.5em) {
+    left: 50%;
+  }
+}
