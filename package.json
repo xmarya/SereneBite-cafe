@@ -1,11 +1,11 @@
 {
   "name": "serenebite",
   "version": "1.0.0",
-  "main": "app.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "watch": "sass --watch sass/main.scss style.css",
-    "build": ""
+    "build": "parcel build index.html"
   },
   "author": "Marya",
   "license": "ISC",
