@@ -34,10 +34,17 @@
       bottom: -206%;
       left: 71%;
     }
+    
+    @media only screen and (max-width: 54.63em) {
+      width: 110%;
+      bottom: -205%;
+      left: 70%;
+    }
 
     @media only screen and (max-width: 50em) {
-      height: 170%;
-      bottom: -214%;
+      width: 114%;
+      height: 176%;
+      bottom: -219%;
     }
 
     @media only screen and (max-width: 49.2em) {
@@ -63,27 +70,82 @@
       bottom: -241%;
   }
 
-  @media only screen and (max-width: 44.5em) {
-    left: 62%;
-  }
+  
+    @media only screen and (max-width: 45.38em) {
+      width: 128%;
+      height: 216%;
+      bottom: -260%;
+      left: 66%;
+    }
 
-  @media only screen and (max-width: 40.1em) {
+    @media only screen and (max-width: 43.5em) {
+      height: 242%;
+      bottom: -282%;
+      left: 63%;
+    }
+
+  @media only screen and (max-width: 40.25em) {
     height: 214%;
     bottom: -253%;
   }
 
-  @media only screen and (max-width:38.4em) {
-    height: 226%;
-    bottom: -261%;
-    left: 56%;
+  @media only screen and (max-width: 40em) {
+    height: 224%;
+    bottom: -258%;
   }
 
-  @media only screen and (max-width: 35.9em) {
-    left: 45%;
+  @media only screen and (max-width:38.38em) {
+    height: 247%;
+    bottom: -277%;
   }
 
-  @media only screen and (max-width: 32em) {
-    display: none;
+  @media only screen and (max-width:37.12em) {
+    bottom: -276%;
   }
+
+
+  @media only screen and (max-width: 36em) {
+    bottom: -274%;
+  }
+
+
+  @media only screen and (max-width: 34.76em) {
+    bottom: -273%;
+    left: 72%;
+  }
+
+
+  @media only screen and (max-width: 33.25em) {
+    bottom: -272%;
+  }
+
+  @media only screen and (max-width: 29.75em) {
+    bottom: -271%;
+    left: 64%;
+  }
+  
+  @media only screen and (max-width: 27.5em) {
+    bottom: -270%;
+  }
+
+  @media only screen and (max-width: 27em) {
+    height: 258%;
+    bottom: -281%;
+  }
+
+  @media only screen and (max-width: 25.75em) {
+    left: 60%;
+  }
+
+  @media only screen and (max-width: 24.4em) {
+    bottom: -276%;
+    left: 55%;
+  }
+
+  @media only screen and (max-width: 22.5em) {
+    left: 47%;
+  }
+
+
 }
   

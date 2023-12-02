@@ -14,6 +14,11 @@
     position: absolute;
     background-size: cover;
     background-position: center;
+
+    @media only screen and (max-width: 22.5em) {
+      width: 80%;
+    }
+
     &--1 {
       clip-path: url(#hero-path);
       background-image: url(./imgs/Hero-1.jpg);
@@ -46,33 +51,29 @@
         left: 20%;
       }
 
-      @media only screen and (max-width: 38.4em) {
-        width: 40%;
+      @media only screen and (max-width: 38.38em) {
+        width: 60%;
         height: 27%;
+        left: 30%;
       }
 
       @media only screen and (max-width: 34.6em) {
-        left: 17%;
+        width: 80%;
       }
 
       @media only screen and (max-width: 30.5em) {
-        left: 12%;
+        left: 30%;
       }
 
-      @media only screen and (max-width: 28.5em) {
-        width: 35%;
-        height: 21%;
-        border-radius: 2rem;
-      }
-      @media only screen and (max-width: 27.5em) {
-        left: 10%;
+      @media only screen and (max-width: 28em) {
+        width: 70%;
+        border-radius: 2.5rem;
       }
 
-      @media only screen and (max-width: 26.5em) {
-        width: 40%;
-        top: 13%;
-        left: 15%;
+      @media only screen and (max-width: 22.5em) {
+        left: 20%;
       }
+
     }
 
     &--2 {
@@ -93,33 +94,33 @@
           0 2px 4px -2px rgb(0 0 0 / 0.1);
       }
 
-      @media only screen and (max-width: 38.4em) {
-        width: 40%;
+      @media only screen and (max-width: 38.38em) {
+        width: 60%;
         height: 27%;
       }
 
       @media only screen and (max-width: 34.6em) {
+        width: 80%;
         left: 30%;
       }
+
       @media only screen and (max-width: 30.5em) {
         left: 23%;
       }
 
-      @media only screen and (max-width: 28.5em) {
-        width: 35%;
-        height: 21%;
-        border-radius: 2rem;
+      @media only screen and (max-width: 28em) {
+        width: 70%;
+        border-radius: 2.5rem;
       }
 
-      @media only screen and (max-width: 26.5em) {
-        width: 40%;
-        top: 38%;
-        left: 2%;
+      @media only screen and (max-width: 25em) {
+        left: 20%;
       }
 
-      @media only screen and (max-width: 22.9em) {
-        left: -5%;
+      @media only screen and (max-width: 22.5em) {
+        left: 13%;
       }
+
     }
 
     &--3 {
@@ -144,9 +145,13 @@
         left: 3%;
       }
 
-      @media only screen and (max-width: 38.4em) {
-        width: 40%;
+      @media only screen and (max-width: 38.38em) {
+        width: 60%;
         height: 27%;
+      }
+
+      @media only screen and (max-width: 34.6em) {
+        width: 80%;
       }
 
       @media only screen and (max-width: 33.4em) {
@@ -157,16 +162,13 @@
         left: -5%;
       }
 
-      @media only screen and (max-width: 28.5em) {
-        width: 35%;
-        height: 21%;
-        border-radius: 2rem;
+      @media only screen and (max-width: 28em) {
+        width: 70%;
+        border-radius: 2.5rem;
       }
 
-      @media only screen and (max-width: 26.5em) {
-        width: 40%;
-        top: 76%;
-        left: -5%;
+      @media only screen and (max-width: 22.5em) {
+        left: -15%;
       }
     }
   }
@@ -183,6 +185,10 @@
 
     @media only screen and (max-width: 33.4em) {
       width: 60%;
+    }
+
+    @media only screen and (max-width: 38.38em) {
+      width: 110%;
     }
 
     &--1 {
@@ -205,31 +211,38 @@
         left: 24%;
       }
 
-      @media only screen and (max-width: 38.4em) {
-        top: -5%;
-        left: 22%;
+      @media only screen and (max-width: 38.38em) {
+        top: -10%;
+        left: 34%;
       }
 
       @media only screen and (max-width: 33.4em) {
-        top: -3%;
-        left: 26%;
+        top: -7%;
+        left: 41%;
       }
       @media only screen and (max-width: 30.5em) {
-        left: 21%;
+        top: -14%;
+        left: 30%;
       }
-      @media only screen and (max-width: 28.5em) {
-        left: 18%;
+
+      @media only screen and (max-width: 28em) {
+        top: -18%;
+        left: 20%;
       }
 
       @media only screen and (max-width: 27.5em) {
-        left: 15%;
+        top: -13%;
       }
 
-      @media only screen and (max-width: 26.5em) {
-        width: 70%;
+      @media only screen and (max-width: 25em) {
         top: -15%;
-        left: -10%;
+        left: 16%;
       }
+
+      @media only screen and (max-width: 22.5em) {
+        left: 3%;
+      }
+
     }
 
     &--2 {
@@ -241,9 +254,9 @@
         left: -20%;
       }
 
-      @media only screen and (max-width: 38.4em) {
-        top: 30%;
-        left: -10%;
+      @media only screen and (max-width: 38.38em) {
+        top: 41%;
+        left: -15%;
       }
 
       @media only screen and (max-width: 34.6em) {
@@ -251,22 +264,26 @@
       }
 
       @media only screen and (max-width: 33.4em) {
-        top: 32%;
-        left: -15%;
+        top: 43%;
+        left: -25%;
       }
       @media only screen and (max-width: 30.5em) {
-        left: -20%;
+        top: 45%;
+        left: -27%;
       }
 
-      @media only screen and (max-width: 26.5em) {
-        width: 75%;
-        top: 22%;
-        left: 1%;
+      @media only screen and (max-width: 28em) {
+        top: 48%;
       }
 
-      @media only screen and (max-width: 22.9em) {
-        left: -9%;
+      @media only screen and (max-width: 25em) {
+        left: -35%;
       }
+
+      @media only screen and (max-width: 22.5em) {
+        left: -42%;
+      }
+
     }
 
     &--3 {
@@ -283,32 +300,33 @@
         left: 20%;
       }
 
-      @media only screen and (max-width: 38.4em) {
-        top: 70%;
+      @media only screen and (max-width: 38.38em) {
+        top: 80%;
         left: 24%;
       }
+
+      @media only screen and (max-width: 34.6em) {
+        left: 43%;
+      }
+
       @media only screen and (max-width: 33.4em) {
         top: 74%;
-        left: 23%;
+        left: 38%;
       }
 
       @media only screen and (max-width: 30.5em) {
-        left: 18%;
+        left: 36%;
       }
 
-      @media only screen and (max-width: 28.5em) {
-        left: 14%;
+      @media only screen and (max-width: 28em) {
+        left: 27%;
       }
 
-      @media only screen and (max-width: 26.5em) {
-        width: 75%;
-        top: 59%;
-        left: -3%;
+      @media only screen and (max-width: 22.5em) {
+        top: 85%;
+        left: 16%;
       }
 
-      @media only screen and (max-width: 22.9em) {
-        left: -9%;
-      }
     }
   }
 }

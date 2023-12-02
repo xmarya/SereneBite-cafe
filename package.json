@@ -1,7 +1,7 @@
 {
   "name": "serenebite",
   "version": "1.0.0",
-  "default": "index.html",
+  "main": "app.js",
   "scripts": {
     "start": "parcel index.html",
     "watch": "sass --watch sass/main.scss style.css",
