@@ -1,6 +1,7 @@
 {
   "name": "serenebite",
   "version": "1.0.0",
+  "main": "app.js",
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",

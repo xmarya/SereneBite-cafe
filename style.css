@@ -2624,6 +2624,7 @@ img {
   width: 10rem;
   top: -2rem;
   left: 1.2rem;
+  fill: rgba(45, 33, 16, 0.5);
   background-color: var(--body-background);
   z-index: -10;
 }

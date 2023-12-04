@@ -2962,6 +2962,7 @@ img {
 }
 
 .review__qoutation {
+  fill: #2d211080;
   background-color: var(--body-background);
   z-index: -10;
   width: 10rem;
