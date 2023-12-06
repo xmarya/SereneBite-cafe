@@ -23,6 +23,6 @@
   "description": "",
   "devDependencies": {
     "@parcel/optimizer-terser": "^2.10.3",
-    "parcel": "^2.10.2"
+    "parcel": "^2.10.3"
   }
 }
