@@ -4,47 +4,47 @@
   min-height: 100vh;
   font-style: italic;
 
-  @media only screen and (max-width: 44.4rem) {
+  @media screen and (max-width: 44.4rem) {
     width: 71rem;
   }
 
-  @media only screen and (max-width: 41.25rem) {
+  @media screen and (max-width: 41.25rem) {
     width: 66rem;
   }
 
-  @media only screen and (max-width: 38.12rem) {
+  @media screen and (max-width: 38.12rem) {
     width: 61rem;
   }
 
-  @media only screen and (max-width: 35.13rem) {
+  @media screen and (max-width: 35.13rem) {
     width: 55rem;
   }
 
-  @media only screen and (max-width: 30.8rem) {
+  @media screen and (max-width: 30.8rem) {
     width: 49.2rem;
   }
 
-  @media only screen and (max-width: 27.5rem) {
+  @media screen and (max-width: 27.5rem) {
     width: 44rem;
   }
 
-  @media only screen and (max-width: 24.1rem) {
+  @media screen and (max-width: 24.1rem) {
     width: 46rem;
     margin-left: -3.5rem;
   }
 
-  @media only screen and (max-width: 23rem) {
+  @media screen and (max-width: 23rem) {
     width: 44rem;
   }
 
-  @media only screen and (max-width: 21.5rem) {
+  @media screen and (max-width: 21.5rem) {
     width: 42rem;
   }
-  @media only screen and (max-width: 20.5rem) {
+  @media screen and (max-width: 20.5rem) {
     width: 40rem;
   }
 
-  @media only screen and (max-width: 19.13rem) {
+  @media screen and (max-width: 19.13rem) {
     width: 38rem;
   }
 
@@ -53,7 +53,7 @@
     display: grid;
     grid-template-columns: 45% 55%;
     margin-bottom: 14rem;
-    @media only screen and (max-width: 52em) {
+    @media screen and (max-width: 52em) {
       grid-template-columns: 100%;
     }
 
@@ -64,7 +64,7 @@
       z-index: 10;
       position: relative;
 
-      @media only screen and (max-width: 52em) {
+      @media screen and (max-width: 52em) {
         display: none;
       }
 
@@ -90,7 +90,7 @@
         background-size: cover;
         z-index: -1;
 
-        @media only screen and (max-width: 52em) {
+        @media screen and (max-width: 52em) {
           display: none;
         }
       }
@@ -106,7 +106,7 @@
       color: var(--warm-brown-dark);
       margin: 0 6rem;
 
-      @media only screen and (max-width: 52em) {
+      @media screen and (max-width: 52em) {
         background-image: url("./imgs/Clarence-background.png");
         background-position: right;
         background-size: cover;
@@ -118,35 +118,35 @@
         text-transform: uppercase;
         margin-top: 2.8rem;
 
-        @media only screen and (max-width: 66.4em) {
+        @media screen and (max-width: 66.4em) {
           font-size: 4rem;
         }
-        @media only screen and (max-width: 59em) {
+        @media screen and (max-width: 59em) {
           font-size: 3.6rem;
         }
 
-        @media only screen and (max-width: 55.5em) {
+        @media screen and (max-width: 55.5em) {
           font-size: 3.2rem;
         }
 
-        @media only screen and (max-width: 52em) {
+        @media screen and (max-width: 52em) {
           font-size: 5rem;
         }
 
-        @media only screen and (max-width: 36rem) {
+        @media screen and (max-width: 36rem) {
           font-size: 3.6rem;
           font-weight: 500;
         }
 
-        @media only screen and (max-width: 27.5rem) {
+        @media screen and (max-width: 27.5rem) {
           font-size: 3rem;
         }
 
-        @media only screen and (max-width: 20.5rem) {
+        @media screen and (max-width: 20.5rem) {
           font-size: 2.8rem;
         }
 
-        @media only screen and (max-width: 19.13rem) {
+        @media screen and (max-width: 19.13rem) {
           font-size: 2.5rem;
         }
       }
@@ -162,7 +162,7 @@
         letter-spacing: 0.1rem;
         margin: 3rem 0;
 
-        @media only screen and (max-width: 27.5rem) {
+        @media screen and (max-width: 27.5rem) {
           width: 80%;
         }
 
@@ -173,11 +173,11 @@
           font-weight: 600;
           letter-spacing: 0.04rem;
           margin-bottom: 1rem;
-          @media only screen and (max-width: 27.5rem) {
+          @media screen and (max-width: 27.5rem) {
             font-weight: 800;
           }
 
-          @media only screen and (max-width: 19.13rem) {
+          @media screen and (max-width: 19.13rem) {
             font-size: 1.4rem;
           }
 
@@ -190,7 +190,7 @@
             margin-top: 0.5rem;
             margin-left: 1.6rem;
 
-            @media only screen and (max-width: 19.13rem) {
+            @media screen and (max-width: 19.13rem) {
               font-size: 1.2rem;
             }
           }
@@ -204,4 +204,3 @@
   text-transform: uppercase !important;
   margin-top: 2.5rem !important;
 }
-

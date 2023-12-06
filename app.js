@@ -7,7 +7,7 @@ import { slider } from "./script/slider.js";
 
 
 const sliderMQ = window.matchMedia("(max-width: 40.2em)");
-const tp = document.querySelector(".testimonials-tp")
+const tp = document.querySelector(".testimonials-tp");
 window.addEventListener("DOMContentLoaded", () => {
   gsapAnimation();
   map();

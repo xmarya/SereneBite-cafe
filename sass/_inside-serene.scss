@@ -8,23 +8,23 @@
   flex-direction: column;
   background-color: #e6dcce;
 
-  @media only screen and (max-width: 56.85em) {
+  @media screen and (max-width: 56.85em) {
     max-height: 90vh;
   }
 
-  @media only screen and (max-width: 54.2em) {
+  @media screen and (max-width: 54.2em) {
     align-items: start;
   }
 
-  @media only screen and (max-width: 47.5em) {
+  @media screen and (max-width: 47.5em) {
     max-height: 85vh;
   }
 
-  @media only screen and (max-width: 45.5em) {
+  @media screen and (max-width: 45.5em) {
     max-height: 300vh;
   }
 
-  @media only screen and (max-width: 26.4em) {
+  @media screen and (max-width: 26.4em) {
     max-height: 550vh;
   }
 
@@ -41,116 +41,111 @@
     justify-items: stretch;
     padding: 0 3rem;
 
-    @media only screen and (max-width: 54.2em) {
+    @media screen and (max-width: 54.2em) {
       padding: 0 2rem;
     }
-    @media only screen and (max-width: 53.3em) {
+    @media screen and (max-width: 53.3em) {
       padding: 0 1rem;
     }
 
-    @media only screen and (max-width: 52.5em) {
+    @media screen and (max-width: 52.5em) {
       grid-template-columns: repeat(5, minmax(10rem, 20rem));
       padding: 0 2rem;
     }
 
-    @media only screen and (max-width: 45.5em) {
+    @media screen and (max-width: 45.5em) {
       grid-template-columns: repeat(2, minmax(15rem, 40rem)) 1fr;
       grid-template-rows: repeat(30, 1fr);
     }
 
-    @media only screen and (max-width: 44.2em) {
+    @media screen and (max-width: 44.2em) {
       grid-template-columns: repeat(2, 32rem) 1.6rem;
     }
 
-    @media only screen and (max-width: 43em) {
+    @media screen and (max-width: 43em) {
       grid-template-columns: repeat(2, 31.5rem) 1.6rem;
     }
-    @media only screen and (max-width: 42em) {
+    @media screen and (max-width: 42em) {
       grid-template-columns: repeat(2, 31rem) 1.6rem;
     }
-    @media only screen and (max-width: 41em) {
+    @media screen and (max-width: 41em) {
       grid-template-columns: repeat(2, 30rem) 1.6rem;
     }
-    @media only screen and (max-width: 40em) {
+    @media screen and (max-width: 40em) {
       grid-template-columns: repeat(2, 29.5rem) 1.6rem;
     }
-    @media only screen and (max-width: 39.5em) {
+    @media screen and (max-width: 39.5em) {
       grid-template-columns: repeat(2, 29rem) 1.6rem;
     }
 
-    @media only screen and (max-width: 39em) {
+    @media screen and (max-width: 39em) {
       grid-template-columns: repeat(2, 28.5rem) 1.6rem;
     }
 
-    @media only screen and (max-width: 38.1em) {
+    @media screen and (max-width: 38.1em) {
       grid-template-columns: repeat(2, 27rem);
     }
 
-    @media only screen and (max-width: 36.4em) {
+    @media screen and (max-width: 36.4em) {
       grid-template-columns: repeat(2, 26rem);
     }
 
-    @media only screen and (max-width: 35em) {
+    @media screen and (max-width: 35em) {
       grid-template-columns: repeat(2, 25rem);
     }
 
-    @media only screen and (max-width: 34em) {
+    @media screen and (max-width: 34em) {
       grid-template-columns: repeat(2, 24rem);
     }
-    @media only screen and (max-width: 33em) {
+    @media screen and (max-width: 33em) {
       grid-template-columns: repeat(2, 23rem);
     }
 
-    @media only screen and (max-width: 32em) {
+    @media screen and (max-width: 32em) {
       grid-template-columns: repeat(2, 22.5rem);
     }
-    @media only screen and (max-width: 31em) {
+    @media screen and (max-width: 31em) {
       grid-template-columns: repeat(2, 21.7rem);
     }
-    @media only screen and (max-width: 30em) {
+    @media screen and (max-width: 30em) {
       grid-template-columns: repeat(2, 21.3rem);
     }
-    @media only screen and (max-width: 29em) {
+    @media screen and (max-width: 29em) {
       grid-template-columns: repeat(2, 20.5rem);
     }
-    @media only screen and (max-width: 28.1em) {
+    @media screen and (max-width: 28.1em) {
       grid-template-columns: repeat(2, 20rem);
     }
-    @media only screen and (max-width: 27.5em) {
+    @media screen and (max-width: 27.5em) {
       grid-template-columns: repeat(2, 19rem);
     }
 
-    @media only screen and (max-width: 26.4em) {
+    @media screen and (max-width: 26.4em) {
       grid-template-columns: minmax(23rem, 35rem);
       padding: 0 4rem;
     }
 
-    @media only screen and (max-width: 25em) {
+    @media screen and (max-width: 25em) {
       grid-template-columns: minmax(23rem, 32rem);
-
     }
 
-    @media only screen and (max-width: 23em) {
+    @media screen and (max-width: 23em) {
       grid-template-columns: minmax(23rem, 30rem);
-
     }
 
-    @media only screen and (max-width: 21.5em) {
+    @media screen and (max-width: 21.5em) {
       grid-template-columns: minmax(23rem, 28rem);
 
       grid-template-rows: repeat(30, 5rem);
-
     }
 
-    @media only screen and (max-width: 20em) {
+    @media screen and (max-width: 20em) {
       grid-template-columns: minmax(23rem, 26rem);
-
     }
 
-    @media only screen and (max-width: 19em) {
+    @media screen and (max-width: 19em) {
       grid-template-columns: minmax(23rem, 26rem);
       padding: 0 2rem;
-
     }
 
     & > * {
@@ -186,33 +181,33 @@
         text-align: center;
         padding: 2rem;
 
-        @media only screen and (max-width: 63.1em) {
+        @media screen and (max-width: 63.1em) {
           font-size: 1.2rem;
         }
 
-        @media only screen and (max-width: 56.85em) {
+        @media screen and (max-width: 56.85em) {
           line-height: 1.2;
         }
 
-        @media only screen and (max-width: 52.5em) {
+        @media screen and (max-width: 52.5em) {
           font-size: 1.1rem;
           padding: 1.5rem;
         }
 
-        @media only screen and (max-width: 45.5em) {
+        @media screen and (max-width: 45.5em) {
           font-size: 1.6rem;
           padding: 1.8rem;
         }
 
-        @media only screen and (max-width: 33em) {
+        @media screen and (max-width: 33em) {
           font-size: 1.4rem;
         }
 
-        @media only screen and (max-width: 26.4em) {
+        @media screen and (max-width: 26.4em) {
           line-height: 1.6;
         }
 
-        @media only screen and (max-width: 20em) {
+        @media screen and (max-width: 20em) {
           font-size: 1.2rem;
         }
 
@@ -222,11 +217,11 @@
           letter-spacing: 0.05rem;
           margin-bottom: -0.8rem;
 
-          @media only screen and (max-width: 26.4em) {
+          @media screen and (max-width: 26.4em) {
             font-size: 1.6rem;
           }
 
-          @media only screen and (max-width: 20em) {
+          @media screen and (max-width: 20em) {
             font-size: 1.4rem;
           }
         }
@@ -241,7 +236,7 @@
       background-image: url("./imgs/Clarence-background.png");
       background-size: 100%;
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         display: none;
       }
     }
@@ -249,12 +244,12 @@
     &--item-2 {
       grid-row: 3 / span 6;
 
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 1 / 2;
         grid-row: 3 / span 7;
       }
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-row: 1 / span 7;
         margin-top: 1rem;
       }
@@ -268,12 +263,12 @@
       background-image: url("./imgs/Clarence-background.png");
       background-size: 100%;
 
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 1 / 2;
         grid-row: 10 / span 4;
         background-size: cover;
       }
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         display: none;
       }
     }
@@ -283,21 +278,20 @@
       grid-row: 1 / span 4;
       margin-top: 1rem;
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-column: 1 / -1;
         grid-row: 8 / span 3;
         margin-top: 0;
       }
-
     }
 
     &--item-5 {
       grid-row: 5 / -1;
 
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-row: 5 / span 7;
       }
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-column: 1 / -1;
         grid-row: 11 / span 7;
       }
@@ -305,12 +299,12 @@
 
     &--item-6 {
       grid-row: 1 / span 6;
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 1 / 2;
         grid-row: 14 / span 8;
       }
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-column: 1 / -1;
         grid-row: 21 / span 7;
       }
@@ -321,12 +315,12 @@
       grid-row: 7 / -1;
       margin-bottom: 1rem;
 
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 2 / 3;
         grid-row: 12 / span 4;
       }
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-column: 1 / -1;
         grid-row: 18 / span 3;
       }
@@ -340,10 +334,10 @@
       background-image: url("./imgs/Clarence-background.png");
       background-size: 107%;
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         display: none;
       }
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 1 / 2;
         grid-row: 22 / span 4;
         background-size: cover;
@@ -354,13 +348,13 @@
       background-color: mintcream;
       grid-row: 4 / span 4;
 
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 2 / 3;
         grid-row: 20 / span 4;
         background-size: cover;
       }
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-column: 1 / -1;
         grid-row: 28 / span 3;
       }
@@ -374,17 +368,17 @@
       background-image: url("./imgs/Clarence-background.png");
       background-size: 107%;
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         display: none;
       }
 
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 2 / 3;
         grid-row: 16 / span 4;
         background-size: cover;
       }
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-column: 1 / -1;
       }
     }
@@ -393,13 +387,13 @@
       background-color: mintcream;
       grid-row: 2 / span 3;
 
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 1 / 2;
         grid-row: 26 / span 5;
         margin-bottom: 1.5rem;
       }
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-column: 1 / -1;
         grid-row: 38 / span 3;
       }
@@ -408,14 +402,14 @@
     &--item-12 {
       background-color: mintcream;
       grid-row: 5 / -1;
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         grid-column: 2 / 3;
         grid-row: 24 / span 7;
         background-size: cover;
         margin-bottom: 1rem;
       }
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         grid-column: 1 / -1;
         grid-row: 31 / span 7;
       }
@@ -428,10 +422,10 @@
       background-image: url("./imgs/Clarence-background.png");
       background-size: 50%;
 
-      @media only screen and (max-width: 26.4em) {
+      @media screen and (max-width: 26.4em) {
         display: none;
       }
-      @media only screen and (max-width: 45.5em) {
+      @media screen and (max-width: 45.5em) {
         display: none;
       }
     }

@@ -5,14 +5,20 @@
   "scripts": {
     "start": "parcel index.html",
     "watch": "sass --watch sass/main.scss style.css",
-    "build": "parcel build index.html"
+    "html:minify": "html-minifier-terser index.html --output index-min.html --collapse-whitespace",
+    "css:minify": "cleancss -o style.min.css style.css",
+    "js:minify": "terser app.js --output ./script/min-script/app.min.js --compress --mangle --module --comments false ",
+    "build": "parcel build index-min.html"
   },
   "author": "Marya",
   "license": "ISC",
   "dependencies": {
+    "clean-css-cli": "^5.6.3",
     "gsap": "^3.12.2",
+    "html-minifier-terser": "^7.2.0",
     "leaflet": "^1.9.4",
-    "sass": "^1.69.3"
+    "sass": "^1.69.3",
+    "terser": "^5.25.0"
   },
   "description": "",
   "devDependencies": {

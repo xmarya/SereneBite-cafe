@@ -35,12 +35,12 @@
     background-color: var(--warm-brown-light);
     position: relative;
 
-    @media only screen and (max-width: 73.7em) {
+    @media screen and (max-width: 73.7em) {
       /*1176 / 16 */
       width: 60%;
     }
 
-    @media only screen and (max-width: 52.85em) {
+    @media screen and (max-width: 52.85em) {
       display: none;
     }
 
@@ -64,7 +64,7 @@
     border: 0.5rem solid var(--body-background);
     padding: 0.8rem 0.16rem;
 
-    @media only screen and (max-width: 60.85em) {
+    @media screen and (max-width: 60.85em) {
       right: -14%;
     }
   }
@@ -116,7 +116,7 @@
     font-size: 2rem;
 
 
-    @media only screen and (max-width: 52.85em) {
+    @media screen and (max-width: 52.85em) {
       position: fixed;
       display: block;
       top: 0;
@@ -128,11 +128,11 @@
       transition: all 0.5s ease-in;
     }
 
-    @media only screen and (max-width: 30.5em) {
+    @media screen and (max-width: 30.5em) {
       left: 110%;
       font-size: 1.6rem;
     }
-    @media only screen and (max-width: 24.9em) {
+    @media screen and (max-width: 24.9em) {
       font-size: 1.4rem;
     }
 
@@ -145,7 +145,7 @@
       row-gap: 4rem;
       margin-top: 6rem;
 
-      @media only screen and (max-width: 30.5em) {
+      @media screen and (max-width: 30.5em) {
         row-gap: 2.6rem;
       }
     }
@@ -155,12 +155,12 @@
       margin-top: 5rem;
       padding: 1.2rem 4rem;
 
-      @media only screen and (max-width: 30.5em) {
+      @media screen and (max-width: 30.5em) {
         margin-top: 10rem;
         padding: 1.2rem 3rem;
       }
 
-      @media only screen and (max-width: 24.9em) {
+      @media screen and (max-width: 24.9em) {
         padding: 1rem 2rem ;
       }
     }
@@ -183,11 +183,11 @@
   cursor: pointer;
   transition: all 0.5s ease-in;
 
-  @media only screen and (max-width: 52.85em) {
+  @media screen and (max-width: 52.85em) {
     display: block;
   }
 
-  @media only screen and (max-width: 30.5em) {
+  @media screen and (max-width: 30.5em) {
     left: 90%;
   }
 }
@@ -196,7 +196,7 @@
   transform: rotate(44deg);
   left: 54%;
 
-  @media only screen and (max-width: 30.5em) {
+  @media screen and (max-width: 30.5em) {
     left: 50%;
   }
 }

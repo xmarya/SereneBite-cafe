@@ -12,11 +12,11 @@
   z-index: 10000;
 
   
-  @media only screen and (max-width: 58.25em) {
+  @media screen and (max-width: 58.25em) {
     width: 50%;
   }
 
-  @media only screen and (max-width: 29em) {
+  @media screen and (max-width: 29em) {
         width: 70%;
   }
 
@@ -29,24 +29,24 @@
     align-self: center;
     margin-left: 3rem;
 
-    @media only screen and (max-width: 58.25em) {
+    @media screen and (max-width: 58.25em) {
       font-size: 3rem;
     }
 
-    @media only screen and (max-width: 44.4em) {
+    @media screen and (max-width: 44.4em) {
       font-size: 2.4rem;
     }
 
-    @media only screen and (max-width: 38.75em) {
+    @media screen and (max-width: 38.75em) {
       font-size: 2.4rem;
       margin-left: 1.2rem;
     }
-    @media only screen and (max-width: 33.75em) {
+    @media screen and (max-width: 33.75em) {
       font-size: 2rem;
       margin-left: 0;
     }
 
-    @media only screen and (max-width: 21em) {
+    @media screen and (max-width: 21em) {
       font-size: 1.7rem;
     }
   }
@@ -57,7 +57,7 @@
     row-gap: 2rem;
     margin: 0 auto;
 
-    @media only screen and (max-width: 19em) {
+    @media screen and (max-width: 19em) {
       margin-left: 2rem;
     }
 
@@ -80,11 +80,11 @@
       box-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
       padding: 1.2rem;
 
-      @media only screen and (max-width: 38.75em) {
+      @media screen and (max-width: 38.75em) {
         width: 100%;
       }
 
-      @media only screen and (max-width: 19em) {
+      @media screen and (max-width: 19em) {
         width: 90%;
       }
 
@@ -104,20 +104,20 @@
     margin-left: 3rem;
     font-size: 1.2rem;
 
-    @media only screen and (max-width: 38.75em) {
+    @media screen and (max-width: 38.75em) {
       font-size: 1rem;
       margin-left: 2rem;
     }
 
-    @media only screen and (max-width: 33.75em) {
+    @media screen and (max-width: 33.75em) {
       margin-top: 3rem;
     }
 
-    @media only screen and (max-width: 30.5em) {
+    @media screen and (max-width: 30.5em) {
       margin-left: 1rem;
     }
 
-    @media only screen and (max-width: 21em) {
+    @media screen and (max-width: 21em) {
       font-size: 0.9rem;
       font-weight: 600;
     }
@@ -135,11 +135,11 @@
 
   cursor: pointer;
 
-  @media only screen and (max-width: 38.75em) {
+  @media screen and (max-width: 38.75em) {
     width: 100%;
   }
 
-  @media only screen and (max-width: 19em) {
+  @media screen and (max-width: 19em) {
     width: 90%;
   }
 

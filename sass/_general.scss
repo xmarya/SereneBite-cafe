@@ -133,17 +133,17 @@ body {
     Never use pixel-rems width values if you want your layout to be fluid.
   */
 
-  @media only screen and (max-width: 27.75em) {
+  @media screen and (max-width: 27.75em) {
     font-size: 1.6rem;
     width: 30rem;
   }
 
-  @media only screen and (max-width: 20.44em) {
+  @media screen and (max-width: 20.44em) {
     font-size: 1.4rem;
     width: 27rem;
   }
 
-  @media only screen and (max-width: 17em) {
+  @media screen and (max-width: 17em) {
     font-size: 1.2rem;
     font-weight: 500;
     width: 20rem;
