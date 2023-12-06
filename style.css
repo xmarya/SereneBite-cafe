@@ -46,7 +46,7 @@ body {
 .grid-container {
   display: grid;
   /*nav (hero,about-us) goal (inside-menu-events-testimo-map) footer*/
-  grid-template-columns: [full-start] minmax(6rem, 1fr) [centre-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [centre-end] minmax(6rem, 1fr) [full-end];
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [centre-start] repeat(8, [col-start] minmax(min-content, 13rem) [col-end]) [centre-end] minmax(6rem, 1fr) [full-end];
 }
 
 .btn {
@@ -763,7 +763,6 @@ img {
     align-items: center;
     justify-content: center;
     row-gap: 3rem;
-    margin-left: -2rem;
   }
 }
 @media screen and (max-width: 43.5em) {
@@ -781,6 +780,16 @@ img {
     margin-top: calc(var(--about-section-margin-top) - 10rem);
   }
 }
+@media screen and (max-width: 29.75em) {
+  .about {
+    margin-left: -1rem;
+  }
+}
+@media screen and (max-width: 27.5em) {
+  .about {
+    margin-left: -2.5rem;
+  }
+}
 @media screen and (max-width: 27em) {
   .about {
     margin-top: calc(var(--about-section-margin-top) - 12rem);
@@ -789,12 +798,17 @@ img {
 @media screen and (max-width: 24.4em) {
   .about {
     margin-top: calc(var(--about-section-margin-top) - 18rem);
-    margin-left: -3rem;
+    margin-left: -4.5rem;
   }
 }
-@media screen and (max-width: 20em) {
+@media screen and (max-width: 21.78em) {
   .about {
-    margin-left: -4.6rem;
+    margin-left: -5.5rem;
+  }
+}
+@media screen and (max-width: 20.25em) {
+  .about {
+    width: 31rem;
   }
 }
 
@@ -908,17 +922,15 @@ img {
 }
 @media screen and (max-width: 37.5em) {
   .about__right-side {
-    margin-left: -3rem;
     width: 45rem;
   }
 }
 @media screen and (max-width: 29.75em) {
   .about__right-side {
     max-width: 95%;
-    margin-left: -5rem;
   }
 }
-@media screen and (max-width: 25.75em) {
+@media screen and (max-width: 26.13em) {
   .about__right-side {
     max-width: 85%;
   }
@@ -926,7 +938,6 @@ img {
 @media screen and (max-width: 24.4em) {
   .about__right-side {
     max-width: 80%;
-    margin-left: -7rem;
   }
 }
 
@@ -3548,6 +3559,7 @@ img {
 @media screen and (max-width: 27.5em) {
   #header-to-about {
     bottom: -270%;
+    left: 56%;
   }
 }
 @media screen and (max-width: 27em) {
@@ -3570,6 +3582,12 @@ img {
 @media screen and (max-width: 22.5em) {
   #header-to-about {
     left: 47%;
+  }
+}
+@media screen and (max-width: 20.25em) {
+  #header-to-about {
+    bottom: -278%;
+    left: 44%;
   }
 }
 
